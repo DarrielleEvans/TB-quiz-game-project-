@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <style>
+        .welcome{
+            border: 1px solid black;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+            box-sizing: content-box;
+            flex-direction: column;
+            padding: 10px;
+            height:200px;
+            width:300px;
+            margin-top:50%;
+            text-align:center;
+            
+        }
+        .center{
+            display: flex;
+            justify-content: center;
+            align-items:center;
+        }
+        p{
+            padding: 20px;
+        }
+        #main{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+
+
+        }
+        #btnBegin{
+            padding: 20px 30px;
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+    <div class="welcome">
+        <p>Test your front end developer skills by answering the following questions.</p>
+       <a href="question.html">
+        <button id="btnBegin" onclick="doSomething();">Begin</button>
+        </a>
+    </div>
+    </div>
+</body>
+</html>
