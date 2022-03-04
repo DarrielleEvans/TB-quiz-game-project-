@@ -73,3 +73,7 @@ body,
         border: 5px solid black;
         padding: 10px;
     }
+
+    .welcome{
+        border: 5px solid white;
+    }
